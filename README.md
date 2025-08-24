@@ -14,3 +14,22 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+# ✨ Personal Introduction ✨
+
+## 🙋‍♀️ About Me
+- **Name:** Panita Chanowit
+- **Nickname:** Punch
+- **Major/University:** Commputer Engineering, Thammasat University
+
+## 😄 My hobby
+- Listen to music
+- Read novels
+- Watching series
+
+## 🔗 Social Media
+- [Facebook](https://www.facebook.com/share/17AW1Ku1oT/?mibextid=wwXIfr)  
+- [Instagram](https://www.instagram.com/onyourpunch?igsh=N3Q0eGgzNHpwYmRj)
+
+## 🖼️ Image
+![My Photo](punchsuay.jpg)
