@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4fdf7;
+    color: #333;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #2e8b57;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #2f5e45;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 15px;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 6px;
+    height: 80%;
+    background-color: #81c784; /* แถบเขียวข้างหัวข้อ */
+    border-radius: 3px;
+}
+
+
+p {
+    font-size: 1.15em;
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 20px 25px;
+    background: linear-gradient(to bottom right, #ffffff, #f9fefb);
+    color: #333;
+    border-left: 6px solid #81c784; /* เขียวพาสเทล */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    line-height: 1.8;
+}
+
+p:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    background-color: #ffffff;
+    padding: 25px 40px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    list-style-type: disc; /* ใช้ bullet จุดกลมแบบปกติ */
+    list-style-position: inside; /* ให้จุดอยู่ด้านในกล่อง */
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 1.1em;
+    color: #2e2e2e;
+    line-height: 1.6;
+}
+
+li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #6fbf73;
+    font-size: 1.1em;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: #145c39;
+    text-decoration: underline;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+}
